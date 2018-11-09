@@ -19,7 +19,10 @@
 #import "DataModelHandler.h"
 
 //定义APP全局主题tint color
-#define GLOBAL_TINT_COLOR [UIColor colorWithRed:89/255.0 green:217/255.0 blue:247/255.0 alpha:1.0]
+//#define GLOBAL_TINT_COLOR [UIColor colorWithRed:89/255.0 green:217/255.0 blue:247/255.0 alpha:1.0]
+
+#define GLOBAL_TINT_COLOR [UIColor colorWithRed:254/255.0 green:210/255.0 blue:48/255.0 alpha:1.0]
+
 //屏幕宽度
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 //屏幕高度
