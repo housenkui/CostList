@@ -895,9 +895,9 @@
 				TargetAttributes = {
 					84068DC61D580F39003B6F5E = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 24DAGZR2XU;
+						DevelopmentTeam = T9ZU3ZKUEG;
 						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1287,9 +1287,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 24DAGZR2XU;
+				DEVELOPMENT_TEAM = T9ZU3ZKUEG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShareSDK",
@@ -1307,8 +1309,10 @@
 					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.CostList1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bookKeeping.happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d2cf9455-5530-452c-9ab6-8894646b026e";
+				PROVISIONING_PROFILE_SPECIFIER = bookKeeping_Dev01;
 				SWIFT_OBJC_BRIDGING_HEADER = "CostList/CostList-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -1323,9 +1327,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 24DAGZR2XU;
+				DEVELOPMENT_TEAM = T9ZU3ZKUEG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ShareSDK",
@@ -1343,8 +1349,10 @@
 					"$(PROJECT_DIR)/ShareSDK/Support/PlatformSDK/WeChatSDK",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.XuDeHong.CostList1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bookKeeping.happy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "91293c4e-e646-485b-824b-704c950f1bf2";
+				PROVISIONING_PROFILE_SPECIFIER = "bookKeeping_ Dis01";
 				SWIFT_OBJC_BRIDGING_HEADER = "CostList/CostList-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

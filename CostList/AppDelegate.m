@@ -59,7 +59,7 @@
     
     //设置3D Touch
     UIApplicationShortcutIcon *icon = [UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeAdd];
-    UIApplicationShortcutItem *addItem = [[UIApplicationShortcutItem alloc] initWithType:@"com.XuDeHong.CostList.Add" localizedTitle:NSLocalizedString(@"添加账目", @"添加账目") localizedSubtitle:nil icon:icon userInfo:nil];
+    UIApplicationShortcutItem *addItem = [[UIApplicationShortcutItem alloc] initWithType:@"com.XuDeHong.CostList.Add" localizedTitle:NSLocalizedString(@"记一笔", @"记一笔") localizedSubtitle:nil icon:icon userInfo:nil];
     [UIApplication sharedApplication].shortcutItems = @[addItem];
     
     //初始化ShareSDK分享功能
@@ -100,7 +100,7 @@
 -(void)application:(UIApplication *)application performActionForShortcutItem:(UIApplicationShortcutItem *)shortcutItem completionHandler:(void (^)(BOOL))completionHandler
 {
     MyTabBarController *tabBarController = (MyTabBarController *)self.window.rootViewController;
-    if([shortcutItem.type isEqualToString:@"com.XuDeHong.CostList.Add"])    //快速进入添加账目界面
+    if([shortcutItem.type isEqualToString:@"com.XuDeHong.CostList.Add"])    //快速进入记一笔界面
     {
         [tabBarController showAddOrEditItemControllerWithDataModel:nil];
     }

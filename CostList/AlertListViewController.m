@@ -44,7 +44,7 @@ static NSString* const alertCellIdentifier = @"AlertCell";  //定义全局静态
     }
     
     //创建通知Action
-    UNNotificationAction *addItemAction = [UNNotificationAction actionWithIdentifier:@"addItemAction" title:@"添加账目" options:UNNotificationActionOptionForeground];
+    UNNotificationAction *addItemAction = [UNNotificationAction actionWithIdentifier:@"addItemAction" title:@"记一笔" options:UNNotificationActionOptionForeground];
     //创建Category
     UNNotificationCategory *category = [UNNotificationCategory categoryWithIdentifier:@"NotificationCategory" actions:@[addItemAction] intentIdentifiers:@[] options:UNNotificationCategoryOptionNone];
     //将Category注册到通知中心

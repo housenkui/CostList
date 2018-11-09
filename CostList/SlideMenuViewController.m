@@ -239,7 +239,7 @@
     [defaults setInteger:0 forKey:@"PhotoID"];
     [defaults synchronize];
     
-    [KVNProgress showSuccessWithStatus:@"已清空数据" completion:nil];
+    [KVNProgress showSuccessWithStatus:@"已清除数据" completion:nil];
 }
 
 -(void)dataSynchronismAlertSheet
@@ -300,7 +300,7 @@
 #pragma mark - Table View Delegate
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.section == 0 && indexPath.row == 2)    //清空数据
+    if(indexPath.section == 0 && indexPath.row == 2)    //清除数据
     {
         [self confirmDeleteAllData];
     }

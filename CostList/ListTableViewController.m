@@ -59,12 +59,10 @@ static NSString *ListCommentCellIdentifier = @"ListCommentCell";
     _isFirstTime = YES;
 }
 
-
 -(void)customizeAppearence
 {
     //设置界面上部的View的背景色
     self.upBackgroundView.backgroundColor = GLOBAL_TINT_COLOR;
-    
     
     //设置NavigationBarItem的颜色
     self.navigationBar.tintColor = [UIColor whiteColor];
